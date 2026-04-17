@@ -1,7 +1,7 @@
-const livros = require(`./livroslegais`);
+const livros = require('./livroslegais');
 
 
-const livrosOrdenados = livros.slice().sort((a, b) => b.preco - a.preco);
+const livrosOrdenados = livros.slice().sort((a, b) => a.preco - b.preco);
 
 console.log('Livros do mais caro para o mais barato:');
 livrosOrdenados.forEach((livro, index) => {

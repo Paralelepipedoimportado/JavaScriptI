@@ -24,4 +24,4 @@ const precosLivros = [{
                 preco: 20
             }];
 
-            module.exports = precosLivros;
+module.exports = precosLivros;
